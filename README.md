@@ -1,7 +1,8 @@
 # Disparador Masivo de Facturas  📧⚡  
 
 **¡Automatiza el envío de facturas por correo directamente desde Outlook!**  
-Herramienta desarrollada en Python para equipos de finanzas y logística que necesitan enviar documentos masivos de forma personalizada y segura.  
+Una herramienta desarrollada en Python con interfaz gráfica para enviar automáticamente facturas a clientes vía Gmail, basándose en lecturas de datos de la propia factura y buscando su mail en un Excel con datos del cliente. 
+Como encuentra el mail? Utiliza los datos leídos de la factura (DNI y Nombre), los busca en el Excel y extrae su mail de dicha columna.  
 
 ---
 
@@ -23,23 +24,8 @@ Herramienta desarrollada en Python para equipos de finanzas y logística que nec
 
 ---
 
-### 🖼️ Capturas destacadas:  
-🔹 **Interfaz intuitiva**: Gestión visual de PDFs y Excel  
-🔹 **Feedback en tiempo real**: Log con detalles de éxito/errores  
-🔹 **Resultados precisos**: Envíos rastreables desde cuentas autorizadas  
-
----
-
-### 🚀 ¿Por qué elegir esta herramienta?  
-⏳ **Ahorra 90% de tiempo**: Elimina el copiar-pegar manual  
-🎯 **Precisión garantizada**: Reduce errores humanos en datos sensibles  
-🔒 **Seguridad profesional**: Los datos nunca salen de tu equipo  
-💼 **Multi-propósito**: Ideal para facturas, contratos o documentos legales  
-
----
-
 ### ⚙️ Tecnología bajo el capó:  
-🔧 Desarrollado en **Python** con:  
+🐍 Desarrollado en Python con:  
 - 🖼️ Interfaz gráfica en **Tkinter**  
 - 📊 Procesamiento de datos con **Pandas**  
 - 📑 Lectura avanzada de PDFs con **PyPDF2**  
